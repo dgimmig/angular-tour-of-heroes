@@ -37,7 +37,7 @@ module.exports = function(config) {
     reporters: ['progress', 'kjhtml'],
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: false,
+    autoWatch: true,
     browsers: ['ChromeHeadless'],
     singleRun: true
   });
