@@ -38,8 +38,8 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    port: 9222,
-    browsers: ['ChromeHeadless'],
-    singleRun: true
+    port: 9876,
+    browsers: ['chrome'],
+    singleRun: false
   });
 };
