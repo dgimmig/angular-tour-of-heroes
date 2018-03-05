@@ -39,7 +39,7 @@ module.exports = function(config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
     port: 9876,
-    browsers: ['chrome'],
+    browsers: ['Chrome'],
     singleRun: false
   });
 };
